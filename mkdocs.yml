@@ -1,5 +1,5 @@
 site_name: Automation Builder
-site_url: https://docs-new.deepopinion.ai/
+site_url: https://docs-new.deepopinion.ai/automation-builder
 site_description: Documentation for automation Builder, a automation flow platform.
 theme:
   name: material
