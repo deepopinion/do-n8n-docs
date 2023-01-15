@@ -22,6 +22,7 @@ RUN cp -r /app/n8n-docs/docs/integrations/builtin/trigger-nodes/* /app/n8n-docs/
 RUN cp -r /app/n8n-docs/docs/_images/integrations/builtin/app-nodes/* /app/n8n-docs/docs/_images/integrations/builtin/all-nodes/
 RUN cp -r /app/n8n-docs/docs/integrations/builtin/core-nodes/* /app/n8n-docs/docs/_images/integrations/builtin/all-nodes/
 RUN cp -r /app/n8n-docs/docs/integrations/builtin/trigger-nodes/* /app/n8n-docs/docs/_images/integrations/builtin/all-nodes/
+RUN find . -type f -name "*.md" -print0 | xargs -0 sed -i 's/\](\//\](\/automation-builder\//g'
 
 RUN mkdocs build
 
