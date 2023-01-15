@@ -8,7 +8,7 @@ A workflow is a collection of nodes connected together to automate a process.
 
 A workflow can be started manually (with the Start node) or by Trigger nodes. When a workflow is started, it executes all the active and connected nodes. The workflow execution ends when all the nodes have processed their data. You can view your workflow executions in the **Execution log**, which can be helpful for debugging.
 
-![Workflow](/_images/workflows/workflows/Execute_workflow.gif)
+![Workflow](../../_images/workflows/workflows/Execute_workflow.gif)
 
 ## Activating a workflow
 
@@ -28,7 +28,7 @@ You can export a workflow as a JSON file in two ways:
   * **Copy-Paste**: Select all the workflow nodes in the Editor UI, copy them (`Ctrl + c` or `cmd +c`), then paste them (`Ctrl + v` or `cmd + v`) in your desired file.  
   
   To select all nodes, or a group of nodes, click and drag:
-  ![Select a group of nodes](/_images/workflows/workflows/selectingnodes.gif)
+  ![Select a group of nodes](../../_images/workflows/workflows/selectingnodes.gif)
 
 You can import JSON files as workflows in two ways:
 
@@ -39,7 +39,7 @@ You can import JSON files as workflows in two ways:
 
 On each workflow, it's possible to set some custom settings and overwrite some of the global default settings from the **Workflow** > **Settings** menu.
 
-![The Workflow Setting modal.](/_images/workflows/workflows/workflow_settings.png)
+![The Workflow Setting modal.](../../_images/workflows/workflows/workflow_settings.png)
 
 The following settings are available:
 
